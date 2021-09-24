@@ -1,0 +1,24 @@
+Package: Pathomap
+Title: An atlas of genes' tissue-specific pathological roles
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Priyadarshini",
+           family = "Rai",
+           role = c("aut", "cre"),
+           email = "priyadarshinir@iiitd.ac.in",
+           comment = c(ORCID = "0000-0002-5684-3993"))
+Description: Pathomap provides a visual association between a gene and the pathological impact it can have on different tissues using a human body template. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+	gganatogram (>= 1.1.1),
+	gridExtra,
+	plotly,
+	magrittr
+Depends:
+	ggplot2,
+	ggpolypath

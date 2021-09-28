@@ -23,6 +23,14 @@ OR
 install.packages("Path to the Pathomap folder", repos = NULL, type = “source”)
 ```
 
+To view a genes' *expression* and its *Patho-score* in different tissues using a human body template, use the following command:
+
+```
+ExpressionMap_Pathomap('Gene Name', 'Anatomy')
+
+For example, ExpressionMap_Pathomap('BRCA1', 'female')
+```
+
 ```
 # Loading data
 Processed_Data = read.table('Single Cell Dataset/PBMC_Data_1019Samples.csv', sep = ',', header = FALSE)

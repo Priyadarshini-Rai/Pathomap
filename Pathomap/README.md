@@ -28,7 +28,9 @@ To view a genes' *expression* and its *Patho-score* in different tissues using a
 ```
 ExpressionMap_Pathomap('Gene Name', 'Anatomy')
 
-For example, ExpressionMap_Pathomap('BRCA1', 'female')
+For example, 
+ExpressionMap_Pathomap('BRCA1', 'female')
+ExpressionMap_Pathomap('APC', 'female')
 ```
 
 ```

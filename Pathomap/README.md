@@ -29,26 +29,25 @@ To view a genes' *expression* and its *Patho-score* in different tissues using a
 ExpressionMap_Pathomap('Gene Name', 'Anatomy')
 
 For example, 
+ExpressionMap_Pathomap('APC', 'male')
 ExpressionMap_Pathomap('BRCA1', 'female')
-ExpressionMap_Pathomap('APC', 'female')
 ```
 
-```
-# Loading data
-Processed_Data = read.table('Single Cell Dataset/PBMC_Data_1019Samples.csv', sep = ',', header = FALSE)
-```
+To view a genes' *expression* and its *Patho-score* in different tissues with the help of bar graph, use the following command:
 
 ```
-# Number of features user wants to select
-Number_of_Features = 50
+BarGraph('Gene Name', 'Anatomy')
+
+For example,
+BarGraph('APC', 'male')
+BarGraph('BRCA1', 'female')
 ```
 
-```
-# Calling SelfE
-GeneIDs = SelfE(Processed_Data, Number_of_Features)
-```
+To view tissue specific gene *expression* and 'Patho-score', use the following command:
 
 ```
-# Selecting genes from the data
-SelfE_Data = Processed_Data[, GeneIDs]
+Biopsy('Gene Name', 'Tissue')
+
+For example, 
+Biopsy('BRCA1', 'breast')
 ```

@@ -15,12 +15,12 @@ Packages: devtools, gganatogram, ggplot2, ggploypath, gridExtra, magrittr, plotl
 To install the *Pathomap* R package use the following command:
 
 ```ruby
-setwd('*Path to the Pathomap folder*')
+setwd("Path to the Pathomap folder")
 devtools::install()
 
-**OR**
+OR
 
-install.packages(‘"*Path to the Pathomap folder*"’, repos = NULL, type = “source”)
+install.packages("Path to the Pathomap folder", repos = NULL, type = “source”)
 ```
 
 ```

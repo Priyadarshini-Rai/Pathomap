@@ -32,7 +32,6 @@ For example,
 ExpressionMap_Pathomap('APC', 'male')
 ExpressionMap_Pathomap('BRCA1', 'female')
 ```
-![APC_ExpressionMap_and_Pathomap](https://user-images.githubusercontent.com/45351848/135342270-bc7d8f63-cc06-4487-b7fc-2e38a482b3f5.png)
 
 To view a genes' *expression* and its *Patho-score* in different tissues with the help of bar graph, use the following command:
 
@@ -43,8 +42,6 @@ For example,
 BarGraph('APC', 'male')
 BarGraph('BRCA1', 'female')
 ```
-
-![APC Bar Graph for GitHub README](https://user-images.githubusercontent.com/45351848/135343896-e684fa0d-4a5c-4652-9fad-50f4fc07b8e4.png)
 
 To view tissue specific gene *expression* and 'Patho-score', use the following command:
 

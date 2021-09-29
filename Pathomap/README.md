@@ -55,3 +55,5 @@ Biopsy('Gene Name', 'Tissue')
 For example, 
 Biopsy('BRCA1', 'breast')
 ```
+
+![APC Biopsy for GitHub README](https://user-images.githubusercontent.com/45351848/135346078-b1ceb367-3e2c-4276-8078-e8b5b4bfc808.png)

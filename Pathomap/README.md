@@ -45,6 +45,8 @@ BarGraph('APC', 'male')
 BarGraph('BRCA1', 'female')
 ```
 
+![APC Bar Graphs for GitHub README](https://user-images.githubusercontent.com/45351848/135345890-49d033bf-4404-42ad-b8e1-b61e8deafdde.png)
+
 To view tissue specific gene *expression* and 'Patho-score', use the following command:
 
 ```

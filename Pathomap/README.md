@@ -15,6 +15,11 @@ Packages: devtools, gganatogram, ggplot2, ggploypath, gridExtra, magrittr, plotl
 To install the *Pathomap* R package use the following command:
 
 ```ruby
+library(devtools)
+install_github('Priyadarshini-Rai/Pathomap/Pathomap')
+
+OR
+
 setwd("Path to the Pathomap folder")
 devtools::install()
 
@@ -26,11 +31,11 @@ install.packages("Path to the Pathomap folder", repos = NULL, type = â€œsourceâ€
 To view a genes' *expression* and its *Patho-score* in different tissues using a human body template, use the following command:
 
 ```
-ExpressionMap_Pathomap('Gene Name', 'Anatomy')
+ExpressionMap_PathoMap('Gene Name', 'Anatomy')
 
 For example, 
-ExpressionMap_Pathomap('APC', 'male')
-ExpressionMap_Pathomap('BRCA1', 'female')
+ExpressionMap_PathoMap('APC', 'male')
+ExpressionMap_PathoMap('BRCA1', 'female')
 ```
 
 ![APC ExpressionMap and Pathomap for GitHub README](https://user-images.githubusercontent.com/45351848/135345745-b1f62ce4-90c7-48b6-b1ae-71fb672a6aba.png)

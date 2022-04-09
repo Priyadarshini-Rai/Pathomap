@@ -1,6 +1,6 @@
 # Pathomap: A visual atlas of genes’ tissue-specific pathological roles
 
-Priyadarshini Rai, Atishay Jain, Neha Jha, Divya Sharma, Shivani Kumar, Abhijit Raj, Apoorva Gupta, Sarita Poonia, Smriti Chawla, Juhi Tayal, Anurag Mehta, Angshul Majumdar, Tanmoy Chakraborty, Gaurav Ahuja, and Debarka Sengupta
+Priyadarshini Rai, Atishay Jain, Shivani Kumar, Neha Jha, Divya Sharma, Smriti Chawla, Abhijit Raj, Apoorva Gupta, Sarita Poonia, Angshul Majumdar, Tanmoy Chakraborty, Gaurav Ahuja, and Debarka Sengupta
 
 ## Description
 

@@ -1,4 +1,4 @@
-# Pathomap: A visual atlas of genes’ tissue-specific pathological roles
+# Pathomap: Literature mining discerns latent disease-gene relationships
 
 Priyadarshini Rai, Atishay Jain, Shivani Kumar, Neha Jha, Divya Sharma, Smriti Chawla, Abhijit Raj, Apoorva Gupta, Sarita Poonia, Angshul Majumdar, Tanmoy Chakraborty, Gaurav Ahuja, and Debarka Sengupta
 

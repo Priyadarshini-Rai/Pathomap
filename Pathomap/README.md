@@ -34,11 +34,11 @@ To view a genes' *expression* and its *Patho-score* in different tissues using a
 ExpressionMap_PathoMap('Gene Name', 'Anatomy')
 
 For example, 
-ExpressionMap_PathoMap('APC', 'male')
+ExpressionMap_PathoMap('APOE', 'male')
 ExpressionMap_PathoMap('BRCA1', 'female')
 ```
 
-![APC ExpressionMap and Pathomap for GitHub README](https://user-images.githubusercontent.com/45351848/135345745-b1f62ce4-90c7-48b6-b1ae-71fb672a6aba.png)
+![APOE Bodymap](https://user-images.githubusercontent.com/45351848/162805391-1d5ae52c-de39-4bff-a378-2fdc23bcc203.png)
 
 To view a genes' *expression* and its *Patho-score* in different tissues with the help of bar graph, use the following command:
 
@@ -46,19 +46,22 @@ To view a genes' *expression* and its *Patho-score* in different tissues with th
 BarGraph('Gene Name', 'Anatomy')
 
 For example,
-BarGraph('APC', 'male')
+BarGraph('APOE', 'male')
 BarGraph('BRCA1', 'female')
 ```
 
-![APC Bar Graphs for GitHub README](https://user-images.githubusercontent.com/45351848/135345890-49d033bf-4404-42ad-b8e1-b61e8deafdde.png)
+![APOE Bar Graph](https://user-images.githubusercontent.com/45351848/162805708-4e31b8fe-e04b-4f58-aae6-b141168da8aa.png)
 
-To view tissue specific gene *expression* and 'Patho-score', use the following command:
+To view tissue specific gene *expression* and *Patho-score*, use the following command:
 
 ```
 Biopsy('Gene Name', 'Tissue')
 
 For example, 
-Biopsy('BRCA1', 'breast')
+Biopsy('APOE', 'colon')
 ```
 
-![APC Biopsy for GitHub README](https://user-images.githubusercontent.com/45351848/135346078-b1ceb367-3e2c-4276-8078-e8b5b4bfc808.png)
+![APOE Biopsy](https://user-images.githubusercontent.com/45351848/162806317-6108e24b-94b4-4a4c-b2a0-71263baf6709.png)
+
+If the *Patho-score* between a gene and a tissue is more than 1.3 then an alteration in the normal functioning of the given gene can impact the input tissue. To verify this relationship, user can refer to the web server *DiGSeE* (http://210.107.182.61/geneSearch/).
+

@@ -65,3 +65,6 @@ Biopsy('APOE', 'colon')
 
 If the *Patho-score* between a gene and a tissue is more than 1.3 then an alteration in the normal functioning of the given gene can impact the input tissue. To verify this relationship, user can refer to the web server *DiGSeE* (http://210.107.182.61/geneSearch/).
 
+<img width="1107" alt="Screenshot 2022-04-13 at 11 28 07 AM" src="https://user-images.githubusercontent.com/45351848/163110133-937f2532-7bf7-4926-8a6d-c8d20de79687.png">
+
+
